@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/estilo_proyecto"
+    tools:context=".Clases_act">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="365dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="128dp"
+                android:layout_height="123dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/calendario" />
+
+            <TextView
+                android:id="@+id/TVClase"
+                android:layout_width="205dp"
+                android:layout_height="122dp"
+                android:layout_marginEnd="52dp"
+                android:text="en esta sección se van a gestionar de manera interna las diversas clases que imparte el sistema fitness de BioFit."
+                android:textColor="#959595"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/imageView6"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="366dp"
+        android:layout_height="385dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView5"
+        app:layout_constraintVertical_bias="0.313" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/ETVCodigo"
+                android:layout_width="294dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:hint="Ingrese el codigo"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/ETVIntensidad"
+                android:layout_width="294dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="Ingrese la intensidad"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ETVClase"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/ETVClase"
+                android:layout_width="294dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="Ingrese la clase"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ETVCodigo"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/BTAñadir"
+                android:layout_width="291dp"
+                android:layout_height="47dp"
+                android:backgroundTint="#D31905"
+                android:onClick="Guardar"
+                android:text="AÑADIR CLASE"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ETVIntensidad"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/BTActualizar"
+                android:layout_width="291dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#D31905"
+                android:onClick="Actualizar"
+                android:text="ACTUALIZAR CLASE"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.506"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/BTEliminar"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/BTEliminar"
+                android:layout_width="291dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="4dp"
+                android:backgroundTint="#D31905"
+                android:onClick="Eliminar"
+                android:text="ELIMINAR CLASE"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/BTMostrar"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/BTMostrar"
+                android:layout_width="291dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="4dp"
+                android:backgroundTint="#D31905"
+                android:onClick="Mostrar"
+                android:text="MOSTRAR CLASE"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/BTAñadir"
+                tools:ignore="TouchTargetSizeCheck" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

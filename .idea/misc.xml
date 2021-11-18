@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Proyecto_BioFit_Final-GitHub/app/src/main/res/layout/activity_clases.xml" value="0.33" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Proyecto_BioFit_Final-GitHub/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Proyecto_BioFit_Final-GitHub/app/src/main/res/layout/activity_info.xml" value="0.33" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Proyecto_BioFit_Final-GitHub/app/src/main/res/layout/activity_insumos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Proyecto_BioFit_Final-GitHub/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Proyecto_BioFit_Final-GitHub/app/src/main/res/layout/activity_mapa.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Proyecto_BioFit_Final-GitHub/app/src/main/res/layout/activity_perfil.xml" value="0.2719546742209632" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/solemneP/app/src/main/res/drawable/Estilo_proyecto.xml" value="0.22314814814814815" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/solemneP/app/src/main/res/drawable/estilo_proyecto.xml" value="0.22314814814814815" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/solemneP/app/src/main/res/drawable/estiloproyecto.xml" value="0.22314814814814815" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/solemneP/app/src/main/res/drawable/gradient_background.xml" value="0.36574074074074076" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/solemneP/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/solemneP/app/src/main/res/layout/activity_info.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/solemneP/app/src/main/res/layout/activity_insumos.xml" value="0.33" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/solemneP/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/solemneP/app/src/main/res/layout/activity_mapa.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/dbenj/AndroidStudioProjects/Proyecto_BioFit_Final-GitHub/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/dbenj/AndroidStudioProjects/Proyecto_BioFit_Final-GitHub/app/src/main/res/layout/activity_perfil.xml" value="0.25" />
+        <entry key="..\:/Users/dbenj/AndroidStudioProjects/solemneP/app/src/main/res/layout/activity_clases.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/dbenj/AndroidStudioProjects/solemneP/app/src/main/res/layout/activity_home.xml" value="0.24592391304347827" />
+        <entry key="..\:/Users/dbenj/AndroidStudioProjects/solemneP/app/src/main/res/layout/activity_insumos.xml" value="0.25" />
+        <entry key="..\:/Users/dbenj/AndroidStudioProjects/solemneP/app/src/main/res/layout/activity_main.xml" value="0.2441123188405797" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
